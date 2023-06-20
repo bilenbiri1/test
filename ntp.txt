@@ -1,0 +1,19 @@
+# Minimum four servers required.  The first list is from the USNO NTP
+# server listing.  The second is from the open.pool.org project.
+#
+# The servers listed here do not meet autokey requirements. This will work for
+# opensource systems, or add or modify with approved servers.
+#
+# To add approved servers with keys to the system  modify this list prior to
+# executing the script. NTP will be configured with the servers in this list.
+#
+
+server ntp2.usno.navy.mil
+server ntp-s1.cise.ufl.edu
+server ntp.colby.edu
+server tick.usno.navy.mil
+
+server 0.north-america.pool.ntp.org
+server 1.north-america.pool.ntp.org
+server 2.north-america.pool.ntp.org
+server 3.north-america.pool.ntp.org
